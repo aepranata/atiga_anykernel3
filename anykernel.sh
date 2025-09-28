@@ -10,7 +10,7 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=
+device.name1=m20lte
 supported.versions=10-13
 supported.patchlevels=
 '; } # end properties
