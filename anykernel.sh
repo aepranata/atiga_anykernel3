@@ -11,14 +11,14 @@ do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=oxygen
-supported.versions=10-13
+supported.versions=9 - 13
 supported.patchlevels=
 '; } # end properties
 
 PARTITION=boot
 
 # shell variables
-block=auto;
+block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
