@@ -10,8 +10,11 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=
-supported.versions=10-13
+device.name1=X00T
+device.name1=X00TD
+device.name1=ASUS_X00T
+device.name4=ASUS_X00TD
+supported.versions=10-16
 supported.patchlevels=
 '; } # end properties
 
